@@ -81,4 +81,17 @@ venv.bak/
 logs/
 data/*/
 !data/.gitkeep
-*.log 
+*.log
+
+# 模型文件
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.model
+*.h5
+*.hdf5
+
+# 临时下载文件
+temp_downloads/ 
